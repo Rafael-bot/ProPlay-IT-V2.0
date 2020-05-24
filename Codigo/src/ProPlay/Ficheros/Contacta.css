@@ -1,0 +1,172 @@
+body {
+  height:100vh;
+  background: linear-gradient(180deg , red, cyan ,purple, white);
+  animation: fondo 10s ease infinite;
+  background-size: 400% 400%;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+/*EFECTOS DE COLORES EN EL FONDO*/
+@keyframes fondo{
+  50%{
+    background-position: 0% 50%;
+  }
+  100%{
+    background-position: 100% 0%;
+  } 
+}
+  .menu {
+    border: 3px solid  hidden;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg , purple 0%, cyan 100%);
+    position: absolute;
+    width: 97%;
+    margin:10px;
+  }
+  
+  .contactaform{/*Este es el estilo del formulario*/
+    top:90px;
+    margin:10px;
+    position: absolute;
+    background-color:black;
+    width:97%;
+    height:80%;
+    border: 3px solid  hidden;
+    border-radius:10px;
+  }
+  
+  .contactaform #nombform{/*Este es el estilo del nombre del formulario*/
+    color:white;
+    text-align:center;
+    margin:10px;
+  }
+  
+  .contenido{/*Este es el estilo del fielset*/
+    border: 3px solid  hidden;
+    border-radius:10px;
+    background-color:white;
+    width:96%;
+    height:91%;
+    margin:10px;3
+    padding:10px;
+  }
+  
+  ::placeholder {/*Aqui editamos el estilo de los placeholder de los input*/
+    color: grey;
+    text-align:center;
+  }
+
+  .contactaform .contenido input{/*input*/
+    border: 1px solid  hidden;
+    border-radius:5px;
+  }
+  
+  .contactaform .contenido textarea{/*textarea*/
+    border: 1px solid  hidden;
+    border-radius:5px;
+    resize: none;
+  }
+
+  .contactaform .contenido label{
+    margin: 10px;
+  }
+
+  .contactaform .contenido footer input{
+    width:99%;
+    height:80%;
+    padding:20px;
+    margin:10px;
+    border: 1px solid hidden;
+    border-radius:10px;
+    background-color:white;
+    font-size: medium;
+  }
+  
+  .contactaform .contenido footer input:hover{ /*Este es el estilodel boton a la hora de enviar el formulario*/
+    background-color:#87bbfa;/*Este es el fondo del boton*/
+    color:white;
+    text-decoration: underline white;
+     -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+  }
+  .contactaform .contenido p{
+    text-align: center;
+    font-size: xx-large;
+    font: bold;
+    margin: 30px;
+
+  }
+  .contactaform .contenido p img{
+    width: 700px;
+    margin: 30px;
+  }
+  
+  .fin{
+    border: 3px solid  hidden;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px;
+    font-size: 0.9em;
+    background: linear-gradient(180deg , red 0%, cyan 100%);
+    padding:10px;
+    text-align:center;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    height: 40px;
+    margin-bottom:20px;
+    margin:10px;
+    font-family:cursive monospace;
+  }
+  
+  .fin p{
+    color:white;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  .menu .logo {
+    color: white;
+    float: left;
+    margin:10px;
+    font-size: medium;
+    padding: 10px;
+    position: block;
+    -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+  }
+  .logo:hover{
+    font-size:large;
+    text-decoration: underline white;
+  }
+  
+  
+  .menu .contacta{
+    color: white;
+    float: right;
+    position: block;
+    text-align: right;
+    padding: 5px;
+    margin: 15px;
+    font-size: medium;
+    -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+  }
+  
+  .menu .contacta:hover{
+    text-decoration: underline white;
+  }
+
