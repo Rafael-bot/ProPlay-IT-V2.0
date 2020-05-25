@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		  	<meta charset="utf-8">
+            <title>Video_3</title>
+            
+            <style>
+                video#video1 { 
+                  position: fixed;
+                  top: 50%;
+                  left: 50%;
+                  min-width: 100%;
+                  min-height: 100%;
+                  width: auto;
+                  height: auto;
+                  z-index: -100;
+                  -ms-transform: translateX(-50%) translateY(-50%);
+                  -moz-transform: translateX(-50%) translateY(-50%);
+                  -webkit-transform: translateX(-50%) translateY(-50%);
+                  transform: translateX(-50%) translateY(-50%);
+              
+                  background-size: cover; 
+              }
+            </style>
+
+    </head>
+    <body>
+        <body> 
+           
+           
+            <video id="video1" muted autoplay>
+                <source src="../RecursoMultimedia/Video3_AccesorioMovil.mp4" type="video/mp4">
+                    No soporta este video.
+            </video>
+
+            <script type="text/javascript">
+                var myVideo=document.getElementById("video1");
+                       
+            function playFunc() {
+                            myVideo.play();
+            }
+          
+          </script>
+            
+           
+    </body>
+</html>
