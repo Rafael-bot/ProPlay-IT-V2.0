@@ -174,6 +174,7 @@ public class Libreria extends JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				
+				fich.vaciarLibreria();
 				Ventana_pagina_principal principal = new Ventana_pagina_principal();
 				principal.lblUser.setText(lblUser.getText());
 				principal.labelMonedas.setText(sql.actualizarmoneda(lblUser.getText()));	
